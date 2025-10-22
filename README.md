@@ -1,3 +1,14 @@
+# 安装过程中遇到的问题
+python库安装没有问题，主要是cuda的编译问题。
+1. 编译cuda库：
+```
+FORCE_CUDA=1 python setup.py build_ext --inplace
+```
+
+2. [5000系列修改cuda代码](https://github.com/IDEA-Research/GroundingDINO/issues/397)
+
+————————————————————————————————————————————————————————————————
+
 <div align="center">
   <img src="./.asset/grounding_dino_logo.png" width="30%">
 </div>
