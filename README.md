@@ -7,7 +7,7 @@ FORCE_CUDA=1 python setup.py build_ext --inplace
 
 2. [5000系列修改cuda代码](https://github.com/IDEA-Research/GroundingDINO/issues/397)
 
-————————————————————————————————————————————————————————————————
+————————————————————————————————————————————————
 
 <div align="center">
   <img src="./.asset/grounding_dino_logo.png" width="30%">
